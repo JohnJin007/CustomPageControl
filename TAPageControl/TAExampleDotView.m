@@ -58,6 +58,7 @@ static CGFloat const kAnimateDuration = 1;
 
 - (void)initialization
 {
+    //_dotColor = [UIColor redColor];
     _dotColor = [UIColor whiteColor];
     self.backgroundColor    = [UIColor whiteColor];
     self.layer.cornerRadius = CGRectGetWidth(self.frame) / 2;
